@@ -1,0 +1,98 @@
+
+
+.flexbox {
+  display: grid;
+  place-content: center;
+  justify-content: center;
+  gap: 20px;
+ }
+
+ 
+
+ .title{
+ 
+   color: white;
+   text-align: center;
+   font-family: Lexend, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0em;
+
+
+ }
+
+ .IR
+{
+
+
+  display: grid;
+  place-content: center;
+  cursor: pointer; /* Cambiar cursor al pasar el ratón */
+  border-radius: 15px;
+  background: rgba(230, 221, 214, 1);
+  width: 100px;
+  height: 50px;
+  flex-shrink: 0;
+  border: none;
+  
+}
+
+ .labelIR{
+  font-family: 'Lexend', sans-serif;
+  text-decoration: none;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    padding: 10PX 10PX;
+    text-align: center;
+    color: black;
+
+  
+}
+
+ .contenedorflotante input{
+  width: 325px;
+  height: 69px;
+  border-radius: 15px;
+  border: none;
+ }
+
+ .contenedorflotante input[type="INPUT"] {
+   width: 290px;
+   height: 44px;
+   margin-bottom: -1px;
+   color: var(--negro);
+   gap: 40px;
+   font-family: 'Lexend';
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 28px;
+   letter-spacing: 0em;
+   text-align: left;
+   font-family: Lexend, sans-serif;
+   
+ }
+
+
+ .contenedorflotante input[type="password"] {
+   font-family: Lexend, sans-serif;
+   width: 290px;
+   height: 44px;
+   gap: 21px;
+   font-family: 'Lexend';
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 28px;
+   letter-spacing: 0em;
+   text-align: left;
+ }
+.seguimiento{
+  display: grid;
+  place-content: center;
+  color: white;
+  font-family: Lexend, sans-serif;
+  gap: 10px;
+
+
+}

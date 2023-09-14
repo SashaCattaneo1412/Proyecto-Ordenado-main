@@ -1,0 +1,70 @@
+.container{
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio horizontalmente */
+  align-items: center;
+  padding: 70px; 
+}
+
+.title{
+  display: grid;
+  place-content: center;
+  align-items: center;
+  font-family: Lexend,sans-serif;;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: white;
+ 
+}
+
+.containerimg{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.botonComp1{
+  background-image: url('/Image/btn1.png');
+  display: inline-block;
+  padding: 10px 20px;
+  background-size: cover;
+  padding: 10px 20px;
+  border: none;
+  width:210px;
+  height:230px;
+   
+}
+
+.botonComp2{
+  background-image: url('/Image/Component 2.png');
+  display: inline-block;
+  padding: 10px 20px;
+  background-size: cover;
+  padding: 10px 20px;
+  border: none;
+  width:210px;
+  height:230px;
+}
+
+.botonComp3{
+  background-image: url('/Image/btn3.png');
+  display: inline-block;
+  padding: 10px 20px;
+  background-size: cover;
+  padding: 10px 20px;
+  border: none;
+  width:210px;
+  height:230px;
+}
+
+.botonComp4{
+  background-image: url('/Image/btn4.png');
+  display: inline-block;
+  padding: 10px 20px;
+  background-size: cover;
+  padding: 10px 20px;
+  border: none;
+  width:210px;
+  height:230px;
+}
